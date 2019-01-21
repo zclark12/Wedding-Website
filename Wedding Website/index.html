@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Our Big Day</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="wedding.css">
+    <link rel="stylesheet" type="text/css" href="resources/grid.css">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine|Raleway:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    
+  
+
+
+  </head>
+  
+  <body>
+  <header>
+     <div class="container">
+      <div class="header header-cntr">
+        <h1>Katia & Zachary</h1>
+        <h4>"October 12, 2019" </h4>
+      </div>
+     </div>
+  </header>
+
+  <section class="section-couple" id="couple-section">
+    <div class="container-fluid couple-header">
+        <h2> Lorem Ipsum</h2>
+        <hr class="cpl-hdr-hr">
+    </div>
+    <div class="container-fluid">
+        <div class="card-deck">
+            <div class="card card-bride">
+              <img src="images/tree-smile.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h3 class="card-title">The Bride</h3>
+              </div>
+            </div>
+            <div class="card card-groom">
+              <img src="images/tree-smile.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h3 class="card-title">The Groom</h3>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="container">
+      <div class="row date">
+        <span class="date"> August 15, 2015</span>
+      </div>
+      <div class="row how-we-met">
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta commodi eligendi eos ab, nisi ducimus non sapiente natus, culpa consectetur magni maxime possimus exercitationem, iure laudantium? Sit voluptate corrupti incidunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta commodi eligendi eos ab, nisi ducimus non sapiente natus, culpa consectetur magni maxime possimus exercitationem, iure laudantium? Sit voluptate corrupti incidunt?</span>
+      </div>
+    </div>
+    <div class="container">
+      <div class="photos">
+        <img src="images/propose.jpg" alt="">
+        <img src="images/tree-hold.jpg" alt="">
+        <img src="images/pilar-wedding.jpg" alt="">
+        <img src="images/us-casual.jpg " alt="">
+        <img src="images/bridge-hold.jpg" alt="">
+        <img src="images/sparkler.jpg" alt=""> 
+      </div>
+    </div>
+    <div class="container">
+      <div class="row date">
+        <span class="date"> She Said Yes!! </span>
+      </div>
+      <div class="row how-we-met">
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta commodi eligendi eos ab, nisi ducimus non sapiente natus, culpa consectetur magni maxime possimus exercitationem, iure laudantium? Sit voluptate corrupti incidunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta commodi eligendi eos ab, nisi ducimus non sapiente natus, culpa consectetur magni maxime possimus exercitationem, iure laudantium? Sit voluptate corrupti incidunt?</span>
+      </div>
+  </section> 
+  <div class="countdown-img container-fluid">
+      <div id="countdown-clock" class="row">
+          <span class="month"></span>
+          <span class="days"></span>
+          <span class="hours"></span>
+          <span class="minutes"></span>
+          <span class="seconds"></span>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script src="resources/jquery.countdown.js"></script>
+      <script type="text/javascript">
+        $("#countdown-clock")
+        .countdown("2019/10/12", function(event) {
+          $('.month').text(
+            event.strftime('%m Months')
+          );
+          $('.days').text(
+            event.strftime('%D Days')
+          );
+          $('.hours').text(
+            event.strftime('%H Hours')
+          );
+          $('.minutes').text(
+            event.strftime('%M Minutes')
+          );
+          $('.seconds').text(
+            event.strftime('%S Seconds')
+          );
+        });
+      </script>
+      
+  </div>
+ 
+  
+
+
+
+  <!-- ************************ JAVASCRIPT/JQUERY *********************************** -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+  </body>
+</html>

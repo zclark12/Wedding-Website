@@ -398,6 +398,7 @@ header {
     height: 55vh;
     background-size: cover;
     background-position: 50% 76%;
+    margin-top: 50px;
 }
 
 p.forever-quote {

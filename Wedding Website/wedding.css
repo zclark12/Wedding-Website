@@ -269,58 +269,174 @@ header {
 /* *******************************************************
                      Groomsman / Bridesmaid's
 ******************************************************* */
-/* .friends{
-  margin-top: 5%;
-}
-.wedding-party img{
-  height: 250px;
-  
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; 
 }
 
-.party-card {
+
+.container {
+  width: 60%;
+  margin: rem auto; 
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(10, 5vw);
+  grid-gap: .9rem; 
+}
+
+.gallery__img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+  border-radius: 6px;
 }
-
-.party-names {
-  margin-top: 2%;
-  text-align: center;
-}
-
-.card-text {
+.title {
+  font-size: 15px;
   font-family: 'Raleway', sans-serif;
-}
-.name {
-  font-size: 1em;
-}
-
-.role {
-  margin-top: -17px;
-  font-size: .7em;
-} */
-
-.hvrbox,
-.hvrbox * {
-  box-sizing: border-box;
-  margin: auto;
-
+  letter-spacing: .4px;
+  padding-top:5px;
 }
 
-.hvrbox {
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-  height: auto;
-  border-radius: 10px;
-  margin: 2.5%;
-}
-
-
-
-.hvrbox .hvrbox-layer_bottom {
-  display: block;
-}
-
-.hvrbox-text {
+.gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
   text-align: center;
-  margin-top: 5%;
+}
+
+.gallery__item--2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  text-align: center;
+}
+
+.gallery__item--3 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  text-align: center;
+}
+
+.gallery__item--4 {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  text-align: center;
+}
+.gallery__item--5 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 7;
+  text-align: center;
+}
+
+.gallery__item--6 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 7;
+  text-align: center;
+}
+
+.gallery__item--7 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 7;
+  text-align: center;
+}
+.gallery__item--8 {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 4;
+  grid-row-end: 7;
+  text-align: center;
+}
+.gallery__item--9 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 7;
+  grid-row-end: 10;
+  text-align: center;
+}
+.gallery__item--10 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 7;
+  grid-row-end: 10;
+  text-align: center;
+}
+.gallery__item--11 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 7;
+  grid-row-end: 10;
+  text-align: center;
+}
+
+/* *******************************************************
+                     Quote
+******************************************************* */
+
+.quote {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/bench-kiss.jpg);
+    background-attachment: scroll;
+    height: 55vh;
+    background-size: cover;
+    background-position: 50% 76%;
+}
+
+p.forever-quote {
+  font-size: 3.2em;
+  color: rgba(230, 225, 225, 0.781);
+  margin-left: 6%;
+  padding-top: 15px; 
+  max-width: 375px;
+  text-align: center;
+}
+
+.fa-quote-left,
+.fa-quote-right {
+  font-size: 31px;
+}
+.fa-quote-left {
+  position: relative;
+  bottom: 22px;
+}
+.fa-quote-right {
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+
+/* *******************************************************
+                     Q & A
+******************************************************* */
+
+
+
+
+/* *******************************************************
+                     Registry
+******************************************************* */
+.registry {
+  text-align: center;
+}
+.bbb-logo {
+  border-radius: 3px;
+  margin-right: 50px; 
 }

@@ -22,3 +22,4 @@ Things I learned that I didnt know before:
    You should use the mobil first approach. 
    
    
+Overall even though this isnt compleatly compleate i am still working on this and i have learned alot! from this.

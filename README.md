@@ -1,9 +1,9 @@
 # Wedding-Website
 
-This was a personal project that I decied to build as my own wedding is coming up soon. As a person who is still lerning, it was deffienlty a challange for me, but one i looked forward to building. This is also my fist full scale site that I am building. 
+This was a personal project that I decied to build as my own wedding was coming up soon. As a person who is still learning, it was deffienlty a challange for me. This is also my fist full scale site that I had built. 
 
 Before I built this: 
-  I knew a little bit of HTML and Css as well as some basic bootstrap. I knew going into it I would have to learn as I go but   it was well worth it. 
+  I knew a little bit of HTML and CSS as well as some basic bootstrap. I knew going into it I would have to learn as I go but it was well worth it. 
   
 Problems I came accross and how I overcame them: 
 
@@ -22,4 +22,4 @@ Things I learned that I didnt know before:
    You should use the mobil first approach. 
    
    
-Overall even though this isnt compleatly compleate i am still working on this and i have learned alot! from this.
+Overall even though this isnt compleatly compleate, i am still working on this and i have learned alot! from this.
